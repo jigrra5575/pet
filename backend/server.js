@@ -11,4 +11,4 @@ app.use(express.urlencoded({extended:true}))
 
 app.use("/",registerUserRouter);
 app.use('/uploads', express.static(path.join(__dirname+'/uploads')))
-app.listen(8080,()=>{console.log("Server is running on Port 8080")})
+app.listen(4100,()=>{console.log("Server is running on Port 4100")})
